@@ -14,4 +14,4 @@ Identified bugs and feature requests are tracked using [Github Issues](https://g
 
 ## Pull requests / How to participate into development
 You are invited to send pull requests to the dev branch whenever you think you can contribute with some useful improvements to the command.
-The command maintainer will review you code and decide whether it is going to be part of the command in a future release.
+The command maintainer will review your code and decide whether it is going to be part of the command in a future release.
