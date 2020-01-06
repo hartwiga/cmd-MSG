@@ -1,5 +1,5 @@
 ###############################################################################
-# $Id: 75_MSG.pm 19215 2019-04-18 11:55:19Z loredo $
+# $Id$
 #
 #TODO
 # - be able to use type "default" to let read from attr
