@@ -1249,8 +1249,8 @@ m/^@?([A-Za-z0-9._]+):([A-Za-z0-9._\-\/@+]*):?([A-Za-z0-9._\-\/@+]*)$/
                               )
                             {
                                 $gatewayDev    = $1;
-                                $subRecipient  = $2 if ( $subRecipient eq "" );
-                                $termRecipient = $3 if ( $termRecipient eq "" );
+                                $subRecipient  = $2;
+                                $termRecipient = $3;
                             }
 
                             my $logMsg =
