@@ -201,6 +201,23 @@ my $db = {
             'Low'    => 'set %DEVICE% message %MSG%',
         },
 
+        'F7Messages' => {
+            'Normal' => 'set %DEVICE% add @%RECIPIENT%,%TITLE%,%PRIORITY%,%MSG%',
+            'High'   => 'set %DEVICE% add @%RECIPIENT%,%TITLE%,%PRIORITY%,%MSG%',
+            'Low'    => 'set %DEVICE% add @%RECIPIENT%,%TITLE%,%PRIORITY%,%MSG%',
+            'defaultValues' => {
+                'Normal' => {
+                    'RECIPIENT' => '',
+                },
+                'High' => {
+                    'RECIPIENT' => '',
+                },
+                'Low' => {
+                    'RECIPIENT' => '',
+                },
+            },
+        },
+        
         'Pushover' => {
             'Normal' =>
 'set %DEVICE% %Pushover_MTYPE% title=\'%TITLE%\' device=\'%RECIPIENT%:%TERMINAL%\' priority=%PRIORITY% url_title="%URLTITLE%" message=\'%MSG%\'',
